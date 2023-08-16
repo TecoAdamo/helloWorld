@@ -12,7 +12,7 @@ class App extends Component {
 
   entrar() {
     this.setState({
-      nome: 'H E L L O   W O R L D'
+      nome: 'H E L L O '
     });
   }
 
