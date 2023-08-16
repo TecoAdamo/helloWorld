@@ -12,13 +12,16 @@ class App extends Component {
 
   entrar() {
     this.setState({
-      nome: 'H E L L O World'
+      nome: 'H E L L O   W O R L D'
     });
   }
 
   render() {
     return (
       <View style={styles.container}>
+        <View style={{flex: 0, backgroundColor: '#222'}}>
+
+        </View>
         <View style={styles.buttonContainer}>
           <TouchableHighlight
             style={styles.customButton}
@@ -34,7 +37,7 @@ class App extends Component {
       </View>
     );
   }
-}// testeee
+} 
 
 const styles = StyleSheet.create({
   container: {
