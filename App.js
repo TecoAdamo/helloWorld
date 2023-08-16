@@ -22,7 +22,7 @@ class App extends Component {
         <View style={styles.buttonContainer}>
           <TouchableHighlight
             style={styles.customButton}
-            underlayColor="gray"
+            underlayColor="grey"
             onPress={this.entrar}
           >
             <Text style={[styles.buttonText]}>Clique aqui</Text>
